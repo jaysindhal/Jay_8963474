@@ -1,6 +1,14 @@
-Name :- jay sindhal
+### Heuristic Evaluation Table
 
-project name :- Lab03
-
-student_id:- 8963474
-
+| HEURISTIC | VIOLATION | RECOMMENDATION | SEVERITY |
+|-----------|-----------|----------------|----------|
+| **1. Visibility of system status** | When uploading files or submitting assignments, the system provides no immediate feedback or loading indication, causing uncertainty. | Implement a progress bar or loading spinner to indicate that the upload or submission is in progress, followed by a confirmation message upon completion. | 3 |
+| **2. Match between system and the real world** | The platform uses educational jargon that may be confusing to new users, such as "D2L" instead of simply "Learning Portal". | Use more intuitive and student-friendly terms that align with real-world language, like "Learning Portal" instead of "D2L". | 2 |
+| **3. User control and freedom** | Users have difficulty undoing actions such as accidentally dropping a course or deleting discussion posts, which are irreversible. | Implement an "undo" option or a confirmation dialog before performing such critical actions to prevent accidental errors. | 3 |
+| **4. Consistency and standards** | The interface design and navigation menus vary across different sections of the platform, leading to inconsistency and user confusion. | Standardize the design and navigation menus across all sections of the platform to ensure a consistent user experience. | 2 |
+| **5. Error prevention** | There are no warning messages before users perform critical actions like submitting quizzes or finalizing grades, which can lead to mistakes. | Add confirmation dialogs or warning messages before executing critical actions to help users avoid accidental errors. | 3 |
+| **6. Recognition rather than recall** | The platform requires users to remember specific navigation paths and course codes to find their classes and materials. | Provide a dropdown list or an auto-complete feature for course codes and navigation to help users find their classes more easily. | 3 |
+| **7. Flexibility and efficiency of use** | The application does not offer shortcuts or customizable features for experienced users, which can slow down frequent tasks. | Introduce keyboard shortcuts and customizable features to allow experienced users to perform frequent tasks more efficiently. | 2 |
+| **8. Aesthetic and minimalist design** | The dashboard is cluttered with too many icons and links, making it difficult for users to focus on important information. | Simplify the dashboard layout by grouping related items and using whitespace to reduce visual clutter, highlighting the most important elements. | 2 |
+| **9. Help users recognize, diagnose, and recover from errors** | Error messages are vague and do not provide detailed information or steps for resolution, making it hard for users to understand and fix issues. | Improve error messages to be more specific and offer clear, actionable steps for users to diagnose and resolve problems. | 3 |
+| **10. Help and documentation** | The platform lacks accessible and comprehensive help resources, making it difficult for users to find guidance when needed. | Develop a detailed help section with searchable documentation and context-sensitive help that provides guidance related to the current page or task. | 3 |
